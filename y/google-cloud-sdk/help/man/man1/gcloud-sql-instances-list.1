@@ -1,0 +1,56 @@
+'\" t
+.TH "GCLOUD\-SQL\-INSTANCES\-LIST" "1"
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.nh
+.ad l
+.SH "NAME"
+gcloud-sql-instances-list \- Lists Cloud SQL instances in a given project in the alphabetical order of the instance name\&.
+.SH "SYNOPSIS"
+.sp
+.nf
+\fBgcloud sql instances list\fR
+  [\-\-format FORMAT]
+  [\-\-help]
+  [\-\-max\-results MAX_RESULTS, \-m MAX_RESULTS; default="30"]
+  [\-\-page\-token PAGE_TOKEN, \-p PAGE_TOKEN]
+  [\-\-project PROJECT]
+  [\-\-quiet, \-q]
+  [\-h]
+.fi
+.SH "FLAGS"
+.PP
+\fB\-\-format\fR \fIFORMAT\fR
+.RS 4
+Specify a format for printed output\&. By default, a command\-specific human\-friendly output format is used\&. Setting this flag to one of the available options will serialize the result of the command in the chosen format and print it to stdout\&. Supported formats are: "json", "text", "yaml"\&.
+.RE
+.PP
+\fB\-\-help\fR
+.RS 4
+Display detailed help\&.
+.RE
+.PP
+\fB\-\-max\-results\fR \fIMAX_RESULTS\fR
+.RS 4
+Maximum number of instances per response\&.
+.RE
+.PP
+\fB\-\-page\-token\fR \fIPAGE_TOKEN\fR
+.RS 4
+A previously\-returned page token representing part of the larger set of results to view\&.
+.RE
+.PP
+\fB\-\-project\fR \fIPROJECT\fR
+.RS 4
+Google Cloud Platform project to use for this invocation\&.
+.RE
+.PP
+\fB\-\-quiet\fR
+.RS 4
+Disable all interactive prompts when running gcloud commands\&. If input is required, defaults will be used, or an error will be raised\&.
+.RE
+.PP
+\fB\-h\fR
+.RS 4
+Print a summary help and exit\&.
+.RE

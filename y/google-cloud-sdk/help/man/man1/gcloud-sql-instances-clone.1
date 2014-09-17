@@ -1,0 +1,69 @@
+'\" t
+.TH "GCLOUD\-SQL\-INSTANCES\-CLONE" "1"
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.nh
+.ad l
+.SH "NAME"
+gcloud-sql-instances-clone \- Clones a Cloud SQL instance\&.
+.SH "SYNOPSIS"
+.sp
+.nf
+\fBgcloud sql instances clone\fR
+  SOURCE
+  DESTINATION
+  [\-\-bin\-log\-file\-name BIN_LOG_FILE_NAME]
+  [\-\-bin\-log\-position BIN_LOG_POSITION]
+  [\-\-format FORMAT]
+  [\-\-help]
+  [\-\-project PROJECT]
+  [\-\-quiet, \-q]
+  [\-h]
+.fi
+.SH "POSITIONAL ARGUMENTS"
+.PP
+\fISOURCE\fR
+.RS 4
+Cloud SQL instance ID of the source\&.
+.RE
+.PP
+\fIDESTINATION\fR
+.RS 4
+Cloud SQL instance ID of the clone\&.
+.RE
+.SH "FLAGS"
+.PP
+\fB\-\-bin\-log\-file\-name\fR \fIBIN_LOG_FILE_NAME\fR
+.RS 4
+Binary log file for the source instance\&.
+.RE
+.PP
+\fB\-\-bin\-log\-position\fR \fIBIN_LOG_POSITION\fR
+.RS 4
+Position within the binary log file that represents the point up to which the source is cloned\&.
+.RE
+.PP
+\fB\-\-format\fR \fIFORMAT\fR
+.RS 4
+Specify a format for printed output\&. By default, a command\-specific human\-friendly output format is used\&. Setting this flag to one of the available options will serialize the result of the command in the chosen format and print it to stdout\&. Supported formats are: "json", "text", "yaml"\&.
+.RE
+.PP
+\fB\-\-help\fR
+.RS 4
+Display detailed help\&.
+.RE
+.PP
+\fB\-\-project\fR \fIPROJECT\fR
+.RS 4
+Google Cloud Platform project to use for this invocation\&.
+.RE
+.PP
+\fB\-\-quiet\fR
+.RS 4
+Disable all interactive prompts when running gcloud commands\&. If input is required, defaults will be used, or an error will be raised\&.
+.RE
+.PP
+\fB\-h\fR
+.RS 4
+Print a summary help and exit\&.
+.RE
