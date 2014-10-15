@@ -1,5 +1,0 @@
-bin/
-bin/endpointscfg.py
-bin/dev_appserver.py
-bin/google_sql.py
-bin/appcfg.py
