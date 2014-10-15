@@ -105,48 +105,6 @@ public class CircleView extends View {
         Log.i("l/t/r/b", left + "/" + top + "/" + right + "/" + bottom);
     }
 
-/*	@Override
-	public boolean onTouchEvent(MotionEvent event) {
-        
-		int index = event.getActionIndex();
-        int action = event.getAction();
-        int pointerId = event.getPointerId(index);
-
-        Animation animation = AnimationUtils.loadAnimation(getContext(), R.anim.border_zoom_in);
-       
-        switch(action) {
-        
-      		case MotionEvent.ACTION_DOWN:
-      			Log.i("action", event.getRawX() + "/" + event.getX() + "/" + event.getXPrecision() + "/" + event.getRawY() + "/" + event.getY() + "/" + event.getYPrecision());
-      	      	Log.i("action", "down");
-      	      	mMoveFlag = true;
-	      	    invalidate();
-
-      	      	break;
-      		
-      		case MotionEvent.ACTION_MOVE:
-      			int xOffset = getRight() - getLeft();
-      			int yOffset = getBottom() - getTop();
-      			
-      			if(getParent() != null) {
-      				
-      				
-      			}
-      			layout((int) event.getRawX() - xOffset/2,(int)  event.getRawY() -200 - yOffset/2 ,(int)  event.getRawX() + xOffset/2,(int)  event.getRawY() -200 + yOffset/2);
-      			Log.i("action", event.getRawX() + "/" + event.getX() + "/" + xOffset + "/" + event.getRawY() + "/" + event.getY() + "/" + yOffset);
-      			break;
-      			
-      		case MotionEvent.ACTION_UP:
-      			mMoveFlag = false;
-      			invalidate();
-
-      			Log.i("action", "up");
-      			break;
-      	}
-		
-		return true;
-	} */
-
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         // TODO Auto-generated method stub

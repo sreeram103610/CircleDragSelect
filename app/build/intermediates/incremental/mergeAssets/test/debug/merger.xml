@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="debug" >
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/assets" />
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/src/androidTest/assets" />
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/src/androidTest/assets" />
     </dataSet>
 
 </merger>

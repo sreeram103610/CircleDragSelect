@@ -29,16 +29,6 @@
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
-                name="activity_main"
-                path="/Users/brainfreak/Android/CircleDragSelect/app/src/main/res/layout/activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_main"
-                path="/Users/brainfreak/Android/CircleDragSelect/app/src/main/res/layout/fragment_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="main"
                 path="/Users/brainfreak/Android/CircleDragSelect/app/src/main/res/menu/main.xml"
                 qualifiers=""

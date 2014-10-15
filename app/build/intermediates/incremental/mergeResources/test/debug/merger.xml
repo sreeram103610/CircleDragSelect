@@ -2,49 +2,39 @@
 <merger version="2" >
 
     <dataSet config="debug" >
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res" >
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res" >
             <file
                 name="border_zoom_in"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/anim/border_zoom_in.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/anim/border_zoom_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
-                name="activity_main"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/layout/activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_main"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/layout/fragment_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="main"
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/menu/main.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/values/values.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/values/values.xml"
                 qualifiers="" >
                 <string name="hello_world" >Hello world!
                 </string>
@@ -68,12 +58,15 @@
                 <string name="app_name" >CircleDragSelect
                 </string>
 
-                <declare-styleable name="CirclesOptionView" >
+                <declare-styleable name="CircleView" >
                     <attr
                         name="text"
                         format="string" />
                     <attr
-                        name="numOptions"
+                        name="showText"
+                        format="boolean" />
+                    <attr
+                        name="color"
                         format="integer" />
                 </declare-styleable>
 
@@ -89,7 +82,7 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/values-v11/values.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/values-v11/values.xml"
                 qualifiers="v11" >
 
                 <style
@@ -100,7 +93,7 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/values-v14/values.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -111,7 +104,7 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Android/CircleDragSelect1/app/build/intermediates/bundles/debug/res/values-w820dp-v13/values.xml"
+                path="/Users/brainfreak/Android/CircleDragSelect/app/build/intermediates/bundles/debug/res/values-w820dp-v13/values.xml"
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
@@ -119,9 +112,9 @@
         </source>
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/src/androidTest/res" />
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/build/generated/res/rs/test/debug" />
-        <source path="/Users/brainfreak/Android/CircleDragSelect1/app/build/generated/res/generated/test/debug" />
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/src/androidTest/res" />
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/build/generated/res/rs/test/debug" />
+        <source path="/Users/brainfreak/Android/CircleDragSelect/app/build/generated/res/generated/test/debug" />
     </dataSet>
 
 </merger>

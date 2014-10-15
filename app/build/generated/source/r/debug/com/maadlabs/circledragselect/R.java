@@ -5,11 +5,11 @@
  * should not be modified by hand.
  */
 
-package com.maadlabs.circledragselect.test;
+package com.maadlabs.circledragselect;
 
 public final class R {
     public static final class anim {
-        public static final int border_zoom_in=0x7f030000;
+        public static int border_zoom_in=0x7f030000;
     }
     public static final class attr {
         /** <p>Must be an integer value, such as "<code>100</code>".
@@ -19,7 +19,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f010002;
+        public static int color=0x7f010002;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -27,7 +27,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010001;
+        public static int showText=0x7f010001;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -35,25 +35,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int text=0x7f010000;
+        public static int text=0x7f010000;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static int activity_horizontal_margin=0x7f040000;
+        public static int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static int action_settings=0x7f080000;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static int main=0x7f070000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int hello_world=0x7f050002;
+        public static int action_settings=0x7f050000;
+        public static int app_name=0x7f050001;
+        public static int hello_world=0x7f050002;
     }
     public static final class style {
         /** 
@@ -64,10 +64,10 @@ containing a value of this type.
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static int AppBaseTheme=0x7f060000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static int AppTheme=0x7f060001;
     }
     public static final class styleable {
         /** Attributes that can be used with a CircleView.
@@ -76,9 +76,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircleView_color com.maadlabs.circledragselect.test:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleView_showText com.maadlabs.circledragselect.test:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircleView_text com.maadlabs.circledragselect.test:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_color com.maadlabs.circledragselect:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_showText com.maadlabs.circledragselect:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_text com.maadlabs.circledragselect:text}</code></td><td></td></tr>
            </table>
            @see #CircleView_color
            @see #CircleView_showText
@@ -88,7 +88,7 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.test.R.attr#color}
+          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#color}
           attribute's value can be found in the {@link #CircleView} array.
 
 
@@ -98,11 +98,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.maadlabs.circledragselect.test:color
+          @attr name com.maadlabs.circledragselect:color
         */
         public static final int CircleView_color = 2;
         /**
-          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.test.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#showText}
           attribute's value can be found in the {@link #CircleView} array.
 
 
@@ -112,11 +112,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.maadlabs.circledragselect.test:showText
+          @attr name com.maadlabs.circledragselect:showText
         */
         public static final int CircleView_showText = 1;
         /**
-          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.test.R.attr#text}
+          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#text}
           attribute's value can be found in the {@link #CircleView} array.
 
 
@@ -126,7 +126,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.maadlabs.circledragselect.test:text
+          @attr name com.maadlabs.circledragselect:text
         */
         public static final int CircleView_text = 0;
     };
