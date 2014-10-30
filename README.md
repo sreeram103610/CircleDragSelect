@@ -3,5 +3,5 @@ CircleDragSelect
 
 Options selection using circles
 
-![Alt Text](cdr_demo.gif)
+![Alt Text](cds.gif)
 
