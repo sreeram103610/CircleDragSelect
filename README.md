@@ -3,5 +3,6 @@ CircleDragSelect
 
 Options selection using circles
 
-![Alt Text](cds.gif)
+<img src="cds.gif" width="480px" height="800px" />
+
 
